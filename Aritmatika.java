@@ -3,15 +3,9 @@ import java.util.Scanner;
 public class Aritmatika {
     public static void main(String[] args) {
         //System.out.println("Hello docker. :)");
-	Scanner sc = new Scanner(System.in);
-	Scanner su = new Scanner(System.in);
-	System.out.println("Input nilai: ");
-	double val = sc.nextDouble();
-	System.out.println("Input paramter please(*/+-): ");
-    char op = sc.next().charAt(0);
-    System.out.println("Input nilai: ");
-	double val1 = su.nextDouble();
-	operator(op,val,val1);
+	
+	System.out.println("Selamat Pagi Cekgu ");
+	
     }
 
     static void operator(char operator, double val, double val2) {
