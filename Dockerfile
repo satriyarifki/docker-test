@@ -3,10 +3,10 @@ MAINTAINER rifkisatriya <2041720218@student.polinema.ac.id>
 RUN mkdir -p /app
 WORKDIR /app
 
-COPY main.java /app
+COPY Aritmatika.java /app
 
 #compile file java
-RUN javac main.java
+RUN javac Aritmatika.java
 
 #running java
-CMD ["java","main"]
+CMD ["java","Aritmatika"]
