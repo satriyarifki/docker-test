@@ -7,10 +7,10 @@ public class Aritmatika {
 	Scanner su = new Scanner(System.in);
 	System.out.print("Input nilai: ");
 	double val = sc.nextDouble();
-	System.out.print("Input nilai: ");
-	double val1 = su.nextDouble();
 	System.out.print("Input paramter please(*/+-): ");
-	char op = sc.next().charAt(0);
+    char op = sc.next().charAt(0);
+    System.out.print("Input nilai: ");
+	double val1 = su.nextDouble();
 	operator(op,val,val1);
     }
 
